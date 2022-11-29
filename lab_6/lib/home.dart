@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter/src/widgets/container.dart';
 import 'package:flutter/src/widgets/framework.dart';
 import 'package:lab_6/component/displays.dart';
+import 'package:lab_6/component/displays_prodect.dart';
 import 'package:lab_6/component/show_prodect.dart';
 import 'package:lab_6/component/title.dart';
 
@@ -24,7 +25,8 @@ class HomeScren extends StatelessWidget {
             ListView(
               children: [
                 TitleOfallmarket(),
-                Displays()
+                Displays(),
+                
                
               ],
             ),
