@@ -9,7 +9,7 @@ class bar extends StatelessWidget implements PreferredSizeWidget {
     return Center(
       child: (AppBar(
         title: Text(
-          "Home",
+          Title.toString(),
           style: TextStyle(
             fontWeight: FontWeight.bold,
             fontSize: 25,
