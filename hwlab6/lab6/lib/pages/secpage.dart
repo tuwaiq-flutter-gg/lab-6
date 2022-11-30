@@ -70,6 +70,12 @@ color: Colors.white,
        Padding(padding: EdgeInsets.all(15)),
        Text(("   only  $qun Left"),style: TextStyle(color: Colors.black,fontWeight: FontWeight.normal,fontSize: 20,decorationColor: null) )
        
+         ,Padding(padding: EdgeInsets.all(20)),Container(
+          color: Colors.blue,
+           child: TextButton(
+                 
+                 onPressed: (){}, child:   Text("Buy",style: TextStyle(color: Colors.black,fontWeight: FontWeight.normal,fontSize: 30,decorationColor: null))),
+         )
        
          ],
 
