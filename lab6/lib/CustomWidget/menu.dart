@@ -17,17 +17,35 @@ class CustomMenu extends StatelessWidget {
             spacing: 10,
             children: const [
               CustomProduct(
-                  name: "Shampoo", price: 33, imageURL: "images/Shampoo.jpeg"),
+                name: "Shampoo",
+                price: 33,
+                imageURL: "images/Shampoo.jpeg",
+              ),
               CustomProduct(
-                  name: "Shampoo", price: 33, imageURL: "images/Shampoo.jpeg"),
+                name: "Conditioner",
+                price: 25,
+                imageURL: "images/Conditionar.jpeg",
+              ),
               CustomProduct(
-                  name: "Shampoo", price: 33, imageURL: "images/Shampoo.jpeg"),
+                name: "Spring Collection",
+                price: 125,
+                imageURL: "images/Spring Collection.jpeg",
+              ),
               CustomProduct(
-                  name: "Shampoo", price: 33, imageURL: "images/Shampoo.jpeg"),
+                name: "Moisturizer",
+                price: 18,
+                imageURL: "images/Moisturizer.jpeg",
+              ),
               CustomProduct(
-                  name: "Shampoo", price: 33, imageURL: "images/Shampoo.jpeg"),
+                name: "Serum",
+                price: 35,
+                imageURL: "images/Serum.jpeg",
+              ),
               CustomProduct(
-                  name: "Shampoo", price: 33, imageURL: "images/Shampoo.jpeg"),
+                name: "Vitamin",
+                price: 40,
+                imageURL: "images/Vitamin.jpeg",
+              ),
             ],
           ),
         ],
