@@ -1,0 +1,20 @@
+import 'package:flutter/material.dart';
+
+class title extends StatelessWidget {
+  const title({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    return Container(
+      // margin: EdgeInsets.only(top: 20),
+      color: Colors.white,
+      width: MediaQuery.of(context).size.width,
+      height: 80,
+      child: Center(
+          child: Text(
+        "all Market",
+        style: TextStyle(fontSize: 30, fontWeight: FontWeight.w700),
+      )),
+    );
+  }
+}
