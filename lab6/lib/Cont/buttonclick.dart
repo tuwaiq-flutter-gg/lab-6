@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:lab6/veiw/HomePage.dart';
+import 'package:lab6/veiw/SecoundPage.dart';
 
 class buttonclick extends StatefulWidget {
   const buttonclick({super.key});
@@ -13,10 +14,11 @@ class _buttonclickState extends State<buttonclick> {
   Widget build(BuildContext context) {
     return  Center(
                child: ElevatedButton(
+                  style: ElevatedButton.styleFrom(minimumSize: Size(200, 40)),
             onPressed:(){
               Navigator.push(context, MaterialPageRoute(builder: (BuildContext context) => HomePage()));
               },
-          child: Text("Buy")
+          child: Text("Buy",style: TextStyle(fontSize: 25,fontWeight: FontWeight.bold),)
           ));
             
   }
