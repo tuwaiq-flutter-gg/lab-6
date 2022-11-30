@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:lab6/Cont/buttonclick.dart';
 import 'package:lab6/Cont/imageOrgnize.dart';
 import 'package:lab6/veiw/HomePage.dart';
 
@@ -39,7 +40,7 @@ final String? image1;
                               
                               ]
                               )),
-                              
+                     buttonclick(),
                             
       ],
         
