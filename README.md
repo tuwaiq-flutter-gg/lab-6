@@ -1,9 +1,16 @@
-# lab-6
+# lab6
 
-Using Flutter to create the two designs below, you can be creative. Still, you need to stick to the main objects in the image: your app should be able to move forward to a description page if you click on a specific item, then go back to the Home page using the arrow in the description page.
+A new Flutter project.
 
-Note: Name your app lab6
+## Getting Started
 
+This project is a starting point for a Flutter application.
 
+A few resources to get you started if this is your first Flutter project:
 
-<img width="616" alt="Screen Shot 2022-11-29 at 3 57 58 PM" src="https://user-images.githubusercontent.com/74452750/204535575-889e7a7d-d0db-4a44-9547-049a81551197.png">
+- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
+- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+
+For help getting started with Flutter development, view the
+[online documentation](https://docs.flutter.dev/), which offers tutorials,
+samples, guidance on mobile development, and a full API reference.
